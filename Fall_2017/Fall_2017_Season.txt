@@ -1,0 +1,16 @@
+sc=new Scene();
+        sc.addElos("Fall_2017/Init_ranks.txt");
+        sc.addTourney("Fall_2017/Impromptu.txt",false);
+        sc.addTourney("Fall_2017/Salty_Ones_7.txt",false);
+        sc.addTourney("Fall_2017/Scrub_RR.txt",false);
+        sc.addGame("Nadamoor","SaLaD",1,3);// Crew qualifier
+        sc.addTourney("Fall_2017/Smash_and_Dash_1.txt",false);
+        sc.addTourney("Fall_2017/Smash_and_Dash_2.txt",false);
+        sc.addGame("Xarrite","Boat",0,2);// Fall Brawl
+        sc.addTourney("Fall_2017/Smash_and_Dash_3.txt",false);
+        sc.addTourney("Fall_2017/Mountain_Madness.txt",false);
+        sc.addTourney("Fall_2017/Smash_and_Dash_4.txt",false);
+        sc.addTourney("Fall_2017/Impromptu_2.txt",false);
+        sc.addTourney("Fall_2017/Smash_and_Dash_5.txt",false);
+        sc.addTourney("Fall_2017/Smash_and_Dash_6.txt",false);
+        sc.print();
